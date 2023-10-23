@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.move_block {
+    margin: 1vw;
+    padding: 1vw;
+
+    width: 20vw;
+    height:22vh;
+
+    background: #f38181;
+
+    border: black solid 1px;
+    border-radius: 3%;
+
+    position: relative;
+
+    left: 0;
+    top: 0;
+    transition: left 0.5s ease, top 0.5s ease;
+
+}
+
+.move_block__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);/* СПОСОБ ВЫРОВНЯТЬ ТЕКСТ ПО-ЦЕНТРУ ОБЪЕКТА */
+
+    z-index: 1;
+}
+
+.move_block--button {
+    position: absolute;
+
+    cursor: pointer;
+}
+
+.move_block--button:hover {
+    background-color: gray;
+    opacity: 0.5;
+    transition: opacity 0.2s linear;
+}
+
+.move_block--button__text {
+    position: absolute;
+}
+
+/* Right button */
+
+.move_block--button.right {
+    height: 100%;
+    width: 10%;
+
+
+    top: 50%;
+    right: -5.5%;
+    transform: translate3d(-50%,-50%,0);
+    z-index: 1;
+
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+.move_block--button__text.right {
+    top: 50%;
+    right: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+/* Left button */
+
+.move_block--button.left {
+    height: 100%;
+    width: 10%;
+
+
+    top: 50%;
+    left: 5%;
+    transform: translate3d(-50%,-50%,0);
+
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+}
+
+.move_block--button__text.left {
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+/* Up button */
+
+.move_block--button.up {
+    height: 15%;
+    width: 100%;
+
+
+    top: 7%;
+    right: 50%;
+    transform: translate3d(50%,-50%,0);
+
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+}
+
+.move_block--button__text.up {
+    top: 50%;
+    right: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+/* Down button */
+
+.move_block--button.down {
+    height: 15%;
+    width: 100%;
+
+
+    top: 78%;
+    right: 50%;
+    transform: translate3d(50%,50%,0);
+
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.move_block--button__text.down {
+    top: 0;
+    right: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
