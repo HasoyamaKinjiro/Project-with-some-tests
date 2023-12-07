@@ -37,14 +37,13 @@ class BoardManager {
 
     // Сохранение элемента в localStorage
     saveElementToLocalStorage(element) {
-        console.log(element)
         const elementAsString = JSON.stringify({
             tagName: element.tagName,
-            innerHTML: element.outerHTML
+            innerHTML: element.parentNode.outerHTML,
+            sectionLiId: element.closest('.section-li').id
         })
 
-
-        localStorage.setItem(element.id, elementAsString)
+        localStorage.setItem(`p_${element.parentNode.id}`, `${elementAsString}`)
     }
 
     // Восстановление данных из localStorage
@@ -89,9 +88,6 @@ class BoardManager {
         const switchedBlock = event.currentTarget.parentNode.querySelector('.board-add_switched')
         currentAddBtn.style.display = 'none'
         switchedBlock.style.display = 'flex'
-
-        // Сохранение нового элемента в localStorage
-        /*this.saveElementToLocalStorage(newBoardLi)*/
     }
 
     handleSectionOlClick(event) {
@@ -120,15 +116,7 @@ class BoardManager {
                         area.style.display = 'none'
                         el.style.display = 'block'
 
-                        /*this.saveElementToLocalStorage(el)*/
-                        console.log(el.closest('.section-li').id)
-                        const elementAsString = JSON.stringify({
-                            tagName: el.tagName,
-                            innerHTML: el.parentNode.outerHTML,
-                            sectionLiId: el.closest('.section-li').id
-                        })
-
-                        localStorage.setItem(`p_${el.parentNode.id}`, `${elementAsString}`)
+                        this.saveElementToLocalStorage(el)
 
                         addACard.style.display = 'block'
                         switchBlock.style.display = 'none'

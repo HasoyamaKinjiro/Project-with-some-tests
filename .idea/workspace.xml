@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395cae8c-c950-4121-82b6-1f665ac9bce6" name="Changes" comment="moved commit">
-      <change afterPath="$PROJECT_DIR$/TesstHtml/DrugAndDrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCSS/DrugAndDrop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJS/DrugAndDrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TesstHtml/TestHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/TesstHtml/TestHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TesstHtml/TestPage3.html" beforeDir="false" afterPath="$PROJECT_DIR$/TesstHtml/TestPage3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TesstHtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TesstHtml/MoveBlock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCSS/Test.css" beforeDir="false" afterPath="$PROJECT_DIR$/TestCSS/MoveBlock.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestJS/TestHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestJS/TestHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestJS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestJS/MoveBlock.js" afterDir="false" />
-    </list>
+    <list default="true" id="395cae8c-c950-4121-82b6-1f665ac9bce6" name="Changes" comment="A lot of changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +75,7 @@
       <workItem from="1701076870438" duration="8909000" />
       <workItem from="1701337542955" duration="740000" />
       <workItem from="1701860176849" duration="1146000" />
-      <workItem from="1701940738652" duration="6435000" />
+      <workItem from="1701940738652" duration="6773000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1698076626765</created>
@@ -116,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698078029340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="A lot of changes">
+      <created>1701947408964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701947408964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +134,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="moved commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved commit" />
+    <MESSAGE value="A lot of changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="A lot of changes" />
   </component>
 </project>
