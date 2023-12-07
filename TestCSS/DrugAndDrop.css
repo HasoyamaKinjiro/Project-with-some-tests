@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    user-select: none;
+}
+
+body {
+    background: #005353;
+}
+
+ol {
+    list-style: none;
+}
+
+textarea {
+ user-select: none;
+}
+
+textarea {
+    margin: 0;
+    padding: 0;
+
+    appearance: none;
+    resize: none;
+
+    border: none;
+    outline: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+button {
+    margin: 0 auto;
+
+    background-color: transparent;
+
+    border: none;
+    border-radius: 5px;
+
+    color: #F6F5F5F7;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section {
+    margin: 0 auto;
+    padding: 1.5vh 0 0;
+    width: 1000px;
+    height: 90vh;
+}
+
+.section-ol {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.section-li {
+    width: 300px;
+    height: fit-content;
+
+    background: #16191c;
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.board-headline {
+    width: 280px;
+
+    margin: 10px auto 0;
+
+    background: #595757;
+
+    border-radius: 5px;
+
+    color: rgba(246, 245, 245, 0.97);
+    text-align: center;
+}
+
+.board-ol {
+    width: 280px;
+
+    margin: 0 auto;
+    padding: 10px 0 20px;
+
+    background: #595757;
+
+    border-radius: 5px;
+
+    color: rgba(246, 245, 245, 0.97);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.board-li {
+    width: 260px;
+
+    margin: 0 auto;
+
+    background: #019f9f;
+
+    border-radius: 5px;
+}
+
+.board-li_p {
+    width: 100%;
+    height: auto;
+
+    padding: 0 10px;
+
+    display: none;
+
+    color: black;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
+}
+
+.board-add_block {
+    width: 280px;
+    height: 27px;
+
+    margin: 0 auto 10px;
+
+    background: #595757;
+
+    border-radius: 5px;
+
+    display: flex;
+}
+
+.board-add_btn {
+    width: 260px;
+}
+
+.board-add_btn:hover {
+    background: #424141;
+}
+
+.board-add_switched {
+    width: 260px;
+
+    margin: 0 auto;
+
+    display: none;
+}
+
+.board-add_switched-btn1 {
+    background: #0f730f;
+}
+
+.board-add_switched-btn1:hover {
+    background: rgb(19, 73, 37);
+}
+
+.board-add_switched-btn2:hover {
+    background: #424141;
+}
+
+.input-area {
+    width: 260px;
+    height: 74px;
+
+    margin: 0 auto;
+    padding: 0 10px;
+
+}

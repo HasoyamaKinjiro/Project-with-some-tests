@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395cae8c-c950-4121-82b6-1f665ac9bce6" name="Changes" comment="third commit">
+    <list default="true" id="395cae8c-c950-4121-82b6-1f665ac9bce6" name="Changes" comment="moved commit">
+      <change afterPath="$PROJECT_DIR$/TesstHtml/DrugAndDrop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCSS/DrugAndDrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJS/DrugAndDrop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TesstHtml/TestHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/TesstHtml/TestHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TesstHtml/TestPage3.html" beforeDir="false" afterPath="$PROJECT_DIR$/TesstHtml/TestPage3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TesstHtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TesstHtml/MoveBlock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCSS/Test.css" beforeDir="false" afterPath="$PROJECT_DIR$/TestCSS/MoveBlock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestJS/TestHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestJS/TestHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestJS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestJS/MoveBlock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,15 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Web/WebstormProjects/Project-with-some-tests",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Web/WebstormProjects/Project-with-some-tests&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web\WebstormProjects\Project-with-some-tests\TesstHtml" />
@@ -45,7 +67,26 @@
       <option name="presentableId" value="Default" />
       <updated>1698076518422</updated>
       <workItem from="1698076519615" duration="7000" />
-      <workItem from="1698076612600" duration="1129000" />
+      <workItem from="1698076612600" duration="2500000" />
+      <workItem from="1698649942118" duration="89000" />
+      <workItem from="1698678014457" duration="163000" />
+      <workItem from="1698679332248" duration="262000" />
+      <workItem from="1698934844911" duration="69000" />
+      <workItem from="1699526502987" duration="7289000" />
+      <workItem from="1699605012251" duration="7029000" />
+      <workItem from="1699859217360" duration="9507000" />
+      <workItem from="1699948625508" duration="755000" />
+      <workItem from="1700465429570" duration="14216000" />
+      <workItem from="1700557553954" duration="598000" />
+      <workItem from="1700648802406" duration="2150000" />
+      <workItem from="1700734437422" duration="3759000" />
+      <workItem from="1700817985691" duration="2136000" />
+      <workItem from="1700843065114" duration="1201000" />
+      <workItem from="1700996935306" duration="24000" />
+      <workItem from="1701076870438" duration="8909000" />
+      <workItem from="1701337542955" duration="740000" />
+      <workItem from="1701860176849" duration="1146000" />
+      <workItem from="1701940738652" duration="6435000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1698076626765</created>
@@ -68,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698077161793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="moved commit">
+      <created>1698078029340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698078029340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +137,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="moved commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved commit" />
   </component>
 </project>
